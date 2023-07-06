@@ -14,7 +14,7 @@ public class SpringJenkinsApplication {
 	private static final Logger log = LoggerFactory.getLogger(SpringJenkinsApplication.class);
      
 	@PostConstruct
-	public void init() {
+	public void intt() {
 	log.info("Application started......");
 	}
 
